@@ -1,0 +1,71 @@
+.Modal {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .Overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.cancel {
+    background-color: #ccc;
+  }
+  
+  button.cancel:hover {
+    background-color: #aaa;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  
